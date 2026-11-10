@@ -54,3 +54,38 @@ button{
 button:hover{
     background-color:#bf360c;
 }
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #5d4037;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #fff3e0;
+    text-decoration: underline;
+}
+
+.navbar a.active {
+    color: #e65100;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #5d4037;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 14px;
+}
