@@ -105,3 +105,31 @@ footer {
     line-height: 1.6;
     margin-bottom: 10px;
 }
+
+/* Form Input Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    color: #5d4037;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #d7ccc8;
+    border-radius: 6px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+    background-color: #fff3e0;
+    color: #5d4037;
+}
+
+input:focus, textarea:focus {
+    outline: 2px solid #e65100;
+}
